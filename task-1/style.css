@@ -1,0 +1,204 @@
+header
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.title
+{
+    color: yellow;
+}
+
+.links
+{
+    color: white;
+    font-size: large;
+}
+
+.heading
+{
+    color: brown;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.intro
+{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    width: 700px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-bottom: 80px;
+    font-weight: bold;
+}
+
+.front
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.person
+{
+    height: 665px;
+    width: 580px;
+}
+
+.link
+{
+    padding: 30px;
+    background-color: brown;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: black;
+}
+
+body
+{
+    background-image: url(bg3.jpg), url(bg2.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-repeat: repeat-y;
+    margin: 0;
+}
+
+.sevtitle
+{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+}
+
+.sevintro
+{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+    font-weight: 700;
+}
+
+.sevimg
+{
+    margin-top: 20px;
+    border-radius: 100%;
+    size: 60px;
+    border-style: hidden;
+    height: 500px;
+}
+
+.subheading
+{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: xx-large;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50%;
+}
+
+.subdetail
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+input
+{
+    padding: 10px;
+    background-color: lightgray;
+    border-color: brown;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 800;
+    border-radius: 5%;
+    border-width: 5px;
+}
+
+form
+{
+    text-align: center;
+    height: max-content; 
+}
+
+button
+{
+    padding: 10px;
+    background-color: green;
+    border-color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 800;
+    border-radius: 5%;
+    border-width: 5px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.end 
+{
+    text-align: start;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.endtitle
+{
+    font-size: larger;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.enddetail
+{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.top
+{
+    text-align: right;
+    margin-right: 10px;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 800;
+    margin-top: 0px;
+}
